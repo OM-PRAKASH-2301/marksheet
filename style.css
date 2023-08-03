@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    background-color: #8cb2d8;
+    padding: 1px 1px;
+    /* text-align: center; */
+}
+.footer-head{
+  text-align: center;
+  font-size:medium;
+  font-weight: 500;
+  color: #0e1216;
+}
+.footer-disclaimer {
+    font-size: 13px;
+    text-align: center;
+    color: #0b1e31;
+}
+.banner {
+    height: 50vh;
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    padding: 20px;
+    text-align: center;
+}
+
+.login-form {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.register-heading{
+    text-align: center;
+}
+
+/* style for student_dashboard page */
+.banner-image {
+    width: 100%;
+    height: 400px;
+    background-image: url('ban2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.education-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.education-description {
+    flex: 1;
+    padding: 20px;
+}
+.education-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+.education-image img {
+    max-width: 100%;
+    max-height: 400px;
+}
+
